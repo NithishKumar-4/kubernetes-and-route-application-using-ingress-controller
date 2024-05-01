@@ -1,0 +1,24 @@
+Trraform Command:
+
+terraform init
+terraform apply
+
+Installed and configure aws cli on ec2 instance.
+
+Create EKS Cluster:
+
+eksctl create cluster --name my-cluster --node-type t2.micro --nodes 3 --region ap-south-1
+
+To Deploy Applications:
+
+kubectl apply -f app1-deployment.yaml
+kubectl apply -f app2-deployment.yaml
+
+Setup Ingress Route from documentation.
+
+Apply Ingress Resource:
+
+kubectl apply -f ingress.yaml
+
+
+
